@@ -1,0 +1,2 @@
+New-[a-zA-Z]+|Remove-[a-zA-Z]+|Get-[a-zA-Z]+|Add-[a-zA-Z]+|Set-[a-zA-Z]+
+\s-[a-zA-Z]+\s
