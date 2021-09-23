@@ -1,2 +1,2 @@
-# Microsoft_Cloud_Information_Protection
+# Microsoft Cloud Information Protection
 All about Microsoft Cloud Information Protection (SC-400).
