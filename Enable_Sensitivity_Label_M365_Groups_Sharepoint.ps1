@@ -24,9 +24,9 @@ $Setting = Get-AzureADDirectorySetting -Id (Get-AzureADDirectorySetting | Where-
 Get-AzureADDirectorySettingTemplate
 
 #To add a usage guideline URL, first you need to get the SettingsTemplate object that defines the usage guideline URL value; that is, the Group.Unified template
-$TemplateId = (Get-AzureADDirectorySettingTemplate | where { $_.DisplayName -eq "Group.Unified" }).Id
+$TemplateId = (Get-AzureADDirectorySettingTemplate | Where-Object { $_.DisplayName -eq "Group.Unified" }).Id
 
-$Template = Get-AzureADDirectorySettingTemplate | where -Property Id -Value $TemplateId -EQ
+$Template = Get-AzureADDirectorySettingTemplate | Where-Object -Property Id -Value $TemplateId -EQ
 
 #Next, create a new settings object based on that template
 $Setting = $Template.CreateDirectorySetting()
@@ -44,7 +44,7 @@ $Setting.Values
 #If you want to Update the directory level settings
 
 #Update settings at the directory level
-$Setting = Get-AzureADDirectorySetting | ? { $_.DisplayName -eq "Group.Unified"}
+$Setting = Get-AzureADDirectorySetting | Where-Object { $_.DisplayName -eq "Group.Unified"}
 
 #Check the current settings
 $Setting.Values
