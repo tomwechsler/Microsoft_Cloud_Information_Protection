@@ -1,4 +1,4 @@
-Exam AZ-800: Administering Windows Server Hybrid Core Infrastructure
+Microsoft Certified: Information Protection Administrator Associate 
 -------------------
 https://docs.microsoft.com/en-us/learn/certifications/exams/sc-400
 
