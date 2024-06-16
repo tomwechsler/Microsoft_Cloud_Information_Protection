@@ -9,24 +9,3 @@ https://learn.microsoft.com/de-de/purview/information-protection-solution
 
 Erstellen eines Hash und Hochladen der Quelltabelle für vertrauliche Informationen für Typen vertraulicher Informationen mit genauer Datenübereinstimmung
 https://learn.microsoft.com/de-de/purview/sit-get-started-exact-data-match-hash-upload
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
