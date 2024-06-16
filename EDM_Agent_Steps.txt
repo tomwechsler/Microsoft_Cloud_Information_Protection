@@ -1,0 +1,14 @@
+cloudtrainmitarbeiteredmSchema
+
+PowerShell als Admin ausführen
+
+cd 'C:\Program Files\Microsoft\EdmUploadAgent\'
+
+
+./EdmuploadAgent.exe /SaveSchema /DataStoreName cloudtrainmitarbeiteredmSchema /OutputDir c:\EDM\Data\
+
+
+./EdmUploadAgent.exe /ValidateData /DataFile c:\EDM\Data\MitarbeiterIDs.csv /Schema c:\EDM\Data\cloudtrainmitarbeiteredmSchema.xml
+
+
+./EdmUploadAgent.exe /UploadData /DataStoreName cloudtrainmitarbeiteredmSchema /DataFile c:\EDM\Data\MitarbeiterIDs.csv /HashLocation c:\EDM\Hash\ /Schema c:\EDM\Data\cloudtrainmitarbeiteredmSchema.xml  /AllowedBadLinesPercentage 0

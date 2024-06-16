@@ -1,0 +1,15 @@
+#First create a Content Search in Microsoft Purview
+
+#Search conditions (Query builder)
+From:tomwechsler22@gmail.com AND subject:"[EXTERNAL]Password reset"
+
+
+#In an PowerShell Session use:
+
+Connect-IPPSession
+
+Get-ComplianceSearch
+
+New-ComplianceSearchAction -SearchName "Password reset" -Purge -Purgetype Harddelete
+
+Get-ComplianceSearchAction

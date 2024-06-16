@@ -1,0 +1,2 @@
+How to set up the requirements for Sensitivity Labels in Microsoft Teams, Microsoft 365 Groups, and SharePoint Sites!
+https://techcommunity.microsoft.com/t5/microsoft-365/how-to-set-up-sensitivity-labels-for-microsoft-teams-microsoft/m-p/3262679
